@@ -1,0 +1,10 @@
+mon=int(input("Enter the total amount")
+a=mon//2000
+rem=mon%2000
+n5=rem//500
+rema=rem%500
+n1=rema//100
+left=rema%100
+print("Number of 2000 notes=",a)
+print("Number of 500 notes=",n5)
+print("Number of 100 notes=",(n1-1))
