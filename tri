@@ -1,0 +1,4 @@
+b=float(input("Enter the base of triangle"))
+h=float(input"Enter the height of triangle"))
+hy=((b*b)+(h*h))**(0.5)
+print("Hypotenuse is =",hy)
