@@ -1,0 +1,12 @@
+a=int(input("Enter the side of a triangle"))
+b=int(input("Enter the side of a triangle"))
+c=int(input("Enter the side of a triangle"))
+if(a+b>c and a+c>b and b+c>a):
+  if(a==b and b==c and c==a):
+    print("equilateral triangle")
+  elif(a==b or b==c or c==a):
+    print("isoselse triangle")
+   else:
+    print("scalene triangle")
+ else:
+  print("invalid triangle")
