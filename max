@@ -1,0 +1,6 @@
+a= int(input("Enter a number "))
+b= int(input("Enter a number"))
+if(a>b):
+  print("Maximum number of the two numbers is= " , a)
+else:
+  print("Maximum number of the two numbers is= " , b)
