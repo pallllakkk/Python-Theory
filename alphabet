@@ -1,0 +1,5 @@
+c = str(input("Enter a character"))
+if((c>='a'and c<='z') or (c>='A' and c<='Z')):
+  print("Character is an alphabet")
+else:
+  print("Character is not an alphabet")
