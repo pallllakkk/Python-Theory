@@ -1,0 +1,4 @@
+over = int(input("Enter the number of overs"))
+runs = 33*(over - 1)+36
+print(runs)
+print(f'Player can score maximum {runs} runs in the match')
