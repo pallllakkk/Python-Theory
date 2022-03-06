@@ -1,0 +1,7 @@
+p= float(input("Enter the principal"))
+r= float(input("Enter the rate "))
+t= float(input("Enter the time"))
+q= (1+(0.01)*r)**t
+a=p*q
+ci= a-p
+print(f'The compuond interest is { ci } and the amount is { a }')
