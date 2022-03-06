@@ -1,0 +1,7 @@
+n=int(input("Enter a number "))
+if(n==1 and n==3 and n==5 and n==7 and n==8 and n==10 and n==12):
+  print("Month has 31 days")
+elif(n==2):
+  print("Month has 28 days in a normal year and 29 days in a leap year")
+else:
+  print("Months has 30 days")
