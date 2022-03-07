@@ -1,0 +1,7 @@
+a=float(input("Enter an angle"))
+b=float(input("Enter an angle"))
+c=float(input("Enter an angle"))
+if((a+b+c)==180):
+  print("Valid triangle")
+else:
+  print("Invalid triangle")
