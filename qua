@@ -1,0 +1,12 @@
+a=int(input("Enter the coeffient of x2"))
+b=int(input("Enter the coeffient of x"))
+c=int(input("Enter the constant term"))
+d=((b*b)-(4*a*c))**0.5
+r1=(-b+d)/(4*a*c)
+r2=(-b-d)/(4*a*c)
+if(d>0):
+  print("Real roots=",r1,r2)
+elif(d<0):
+  print("Imaginary roots=",r1,r2)
+else:
+  print("Equal roots=",r1,r2)
