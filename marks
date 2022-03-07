@@ -1,0 +1,22 @@
+m1=float(input("Enter marks in physics"))
+m2=float(input("Enter marks in chemistry"))
+m3=float(input("Enter marks in biology"))
+m4=float(input("Enter marks in mathematics"))
+m5=float(input("Enter marks in computer"))
+s=m1+m2+m3+m4+m5
+per=(s*100)/500
+print("Percentage is =",per)
+print("Grade is")
+if(per>=90):
+  print("A")
+elif(80<=per<=90):
+  print("B")
+elif(70<=per<=80):
+  print("C")
+elif(60<=per<=70):
+  print("D")
+elif(40<=per<=60):
+  print("E")
+else:
+  print("F")
+  
